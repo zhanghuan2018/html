@@ -19,5 +19,6 @@ package.json配置
 ```
 npm install --save lodash
 npm install --save-dev style-loader css-loader #样式
-npm install --save-dev file-loader # 图片
+npm install --save-dev file-loader # 图片和字体
+npm install --save-dev csv-loader xml-loader # 数据
 ```
