@@ -20,5 +20,5 @@ html,body,#container {
   background-position: center center;
   -webkit-transition: opacity .4s linear;
   transition: opacity .4s linear;
-  background-image: url(http://himg.bdimg.com/sys/portrait/item/b14c686….jpg);
+  background-image: url(./avatar.jpg);
 }
