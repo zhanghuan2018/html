@@ -13,5 +13,11 @@ package.json配置
   },
 ```
 
-
 [webpack](https://www.webpackjs.com/)
+
+### 安装
+```
+npm install --save lodash
+npm install --save-dev style-loader css-loader
+
+```
