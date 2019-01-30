@@ -18,6 +18,6 @@ package.json配置
 ### 安装
 ```
 npm install --save lodash
-npm install --save-dev style-loader css-loader
-
+npm install --save-dev style-loader css-loader #样式
+npm install --save-dev file-loader # 图片
 ```
