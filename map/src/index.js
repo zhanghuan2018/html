@@ -1,3 +1,4 @@
+import './style.css';
 function component() {
   var element = document.createElement('div');
   element.setAttribute("id", "container");
