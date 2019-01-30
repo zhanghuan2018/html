@@ -1,10 +1,10 @@
 import './style.css';
-function component() {
+function mapdiv() {
   var element = document.createElement('div');
   element.setAttribute("id", "container");
   return element;
 }
-document.body.appendChild(component());
+document.body.appendChild(mapdiv());
 
 /** 地图 */
 var map = new AMap.Map('container', {resizeEnable: true,zoom:11});
@@ -14,3 +14,10 @@ AMap.plugin(['AMap.ToolBar','AMap.Scale'],function(){
   map.addControl(scale);
   map.addControl(new AMap.ToolBar({liteStyle: true}));
 });
+
+function avatardiv() {
+  var element = document.createElement('div');
+  element.classList.add('avatar');
+  return element;
+}
+document.body.appendChild(avatardiv());
