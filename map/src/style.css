@@ -4,6 +4,11 @@ html,body,#container {
   height: 100%;
 }
 .avatar {
+  box-shadow: 1px 2px 1px rgba(0,0,0,.15);
+  z-index: 4;
+  position: absolute;
+  top: 20px;
+  right: 10px;
   background-color: #fff;
   border-radius: 50%;
   width: 48px;
